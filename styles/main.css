@@ -66,6 +66,7 @@ p.read-btn{
     color:black;
     background-color:var(--primary);
 }
+
 .link-arrows i{
     color:black;
     margin-right:20px;
@@ -92,9 +93,7 @@ h1{
     font-weight:700;
 }
 .border{
-    border: 3px solid #ffcc00;
-    border-bottom: 2px;
-    border-color:#ffcc00;
+    border-bottom: 4px solid #ffcc00;
     width: 25px;
     display:flex;
     margin-left:auto;
@@ -102,8 +101,8 @@ h1{
 
 }
 .sub-word{
-    border-bottom:3px solid #ffcc00;
+    border-bottom:2px solid #ffcc00;
 }
 .sub-word:hover{
-   background-color:#ffcc00; 
+   background-color:#ffcc00;
 }
