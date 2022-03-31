@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>myNatGeo</title>
 </head>
 <body>
@@ -32,7 +33,8 @@
         <p><span class="sub-word">Subscribe</span> for full access to read stories from National Geographic.</p>
         <div class="border"></div>
     </header>
-    <main class="container">
+    <div class="flex-container container"> <!--contains main and section-->
+        <main>
         <div class="main-news">
             <div class="main-news-img">
                 <img src="img/Stan_NG_Exclusive_Image.webp" alt="">
@@ -43,8 +45,8 @@
                 <p class="read-btn"><i class="fas fa-bars"></i>read</p>
             </div> <!--end .main-news-text-->
         </div> <!--end .main-news-->
-
-        <div class="secondary-news">
+        <div class="secondary-news-container">
+            <div class="secondary-news">
             <div class="secondary-news-img">
                 <img src="img/pandemic.webp" alt="">
             </div> <!--secondary-news-img end-->
@@ -53,9 +55,9 @@
                 <p class="title">The 1918 pandemic mistake that changed medicine forever</p>
                 <p class="read-btn"><i class="fas fa-bars"></i>read</p>
             </div><!--secondary-news-text end-->
-        </div> <!--seconary-news end-->
+            </div> <!--seconary-news end-->
 
-        <div class="secondary-news">
+            <div class="secondary-news">
             <div class="secondary-news-img">
                 <img src="img/big fish.jpg" alt="">
             </div>
@@ -63,10 +65,11 @@
                 <h3>Environment <span>Planet possible</span></h3>
                 <p class="title">Inside the plan to save some of the biggest freshwater fish</p>
                 <p class="read-btn"><i class="fas fa-bars"></i>read</p>
-            </div>
+            </div> <!--end secondary enws-->
+        </div> <!--end secondary-news container-->
         </div>
-    </main><!--main ends-->
-    <section class="container">
+        </main><!--main ends-->
+        <section class="container">
         <h2>Today's Picks</h2>
 
         <div class="pick-item">
@@ -110,8 +113,13 @@
                 <h3>Travel</h3>
                 <p>The surprising history of Hawai'i's hula tradition</p>
             </div>
+            <div class="see-more">
+                <p>See More</p>
+            </div>
         </div>
+        
 
-    </section>
+        </section>
+    </div>
 </body>
 </html>
