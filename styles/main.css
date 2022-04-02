@@ -228,9 +228,7 @@ h1{
 .secondary-news{
     margin-bottom:20px;
 }
-.secondary-news-img{
-    
-}
+
 .secondary-news-text{
     background-color: white;
     padding: 10px;
@@ -286,6 +284,9 @@ h1{
     font-weight: 700;
     line-height: 1.5;
 }
+.picks-text span{
+    font-weight: 300;
+}
 .picks-text p:hover{
     text-decoration: underline;
 }
@@ -302,4 +303,5 @@ h1{
     color:white;
     text-transform:uppercase;
     text-align:center;
+    text-decoration:underline 3px var(--primary);
 }
