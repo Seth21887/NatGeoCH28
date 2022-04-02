@@ -305,3 +305,8 @@ h1{
     text-align:center;
     text-decoration:underline 3px var(--primary);
 }
+@media(min-width:768px){
+    .see-more{
+        text-align:left;
+    }
+}
